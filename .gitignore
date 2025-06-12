@@ -3,3 +3,7 @@ build/
 .env
 .DS_Store
 *.log
+
+# Next.js
+.next/
+
