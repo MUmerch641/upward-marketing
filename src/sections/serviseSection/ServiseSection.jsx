@@ -82,10 +82,16 @@ const ServiceSection = () => {
               <div className="flex justify-between bg-gray-200 p-3 rounded-lg hover:bg-gray-300 transition">
                 <span>✅ Logo Designing</span>
                 <span className="text-[#2E8B8B]">👍 Recommend</span>
-              </div>
-              <div className="flex justify-between bg-gray-200 p-3 rounded-lg hover:bg-gray-300 transition">
+              </div>              <div className="flex justify-between bg-gray-200 p-3 rounded-lg hover:bg-gray-300 transition">
                 <span>✅ Company Profile Design</span>
                 <span className="text-[#F4A261]">4.9 / 5.0</span>
+              </div>              <div className="mt-4 text-center">
+                <button 
+                  onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="bg-gradient-to-r from-[#2E8B8B] to-[#1A3C3C] text-white py-2 px-6 rounded-lg hover:shadow-lg transition-all duration-300 text-sm font-medium"
+                >
+                  📁 View Portfolio Samples
+                </button>
               </div>
               <div className="flex justify-between bg-gray-200 p-3 rounded-lg hover:bg-gray-300 transition">
                 <span>✅ Flyer & Billboard Design</span>

@@ -6,6 +6,7 @@ import Footer from "@/sections/footer/Footer";
 import HeroSection from "@/sections/heroSection/HeroSection";
 import LogoBar from "@/sections/logobar/LogoBar";
 import Navbar from "@/sections/navbar/Navbar";
+import PortfolioGallery from "@/sections/portfolioGallery/PortfolioGallery";
 import FeatureSection from "@/sections/projectSection/featuredProject";
 import ProjectsSection from "@/sections/projectSection/ProjectSection";
 import ServiceSection from "@/sections/serviseSection/ServiseSection";
@@ -39,6 +40,9 @@ const LandingPage = () => {
       <div id="projects">
         <FeatureSection />
         <ProjectsSection />
+      </div>
+      <div id="portfolio">
+        <PortfolioGallery />
       </div>
       <div id="team">
         <TeamMembers />
