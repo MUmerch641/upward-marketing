@@ -235,3 +235,29 @@
   border-radius: 20%;
   background-color: yellow;
 }
+
+/* Modal Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Portfolio Cards hover effects */
+.portfolio-card-hover {
+  transition: all 0.3s ease;
+}
+
+.portfolio-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
