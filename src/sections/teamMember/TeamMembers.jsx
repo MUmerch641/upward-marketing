@@ -22,9 +22,9 @@ const TeamMembers = () => {
             <div className="flex justify-center items-center">
               <TeamMemberCard
                 title={"Founder & CEO"}
-                desc={"Upward visionary leader"}
+                desc={"Asim Khan"}
                 img={
-                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCTpGKvqsZFbheb8FEUQ57eUjMY0vDVXbqvg&s"
+                  "/images/ceo.jpeg"
                 }
               />
             </div>
