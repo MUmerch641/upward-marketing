@@ -861,7 +861,7 @@ const Footer = ()=>{
                                             lineNumber: 38,
                                             columnNumber: 15
                                         }, this),
-                                        " hr@curelogics.org"
+                                        " hr@upward.org"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/sections/footer/Footer.jsx",

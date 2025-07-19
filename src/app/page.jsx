@@ -45,7 +45,7 @@ const LandingPage = () => {
         <PortfolioGallery />
       </div>
       <div id="team">
-        <TeamMembers />
+        {/* <TeamMembers /> */}
       </div>
       <div>
         <ToolTechnologies />

@@ -62,8 +62,7 @@ export default function HeroSection() {
             </span>
           </div>
           <h1 className="lg:text-[45px] font-bold leading-tight text-[#1A3C3C]">
-            Elevating Your Business with <br />
-            Innovative Software <br />
+        Driving Businesses Upward Through Smart Marketing.
             <div className="text-5xl py-2 px-2 mt-2 flex flex-col overflow-hidden h-12">
               <span className="animate-words flex flex-col">
                 <span className="text-[#F4A261] block">Experties</span>
