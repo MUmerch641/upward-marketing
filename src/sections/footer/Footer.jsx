@@ -32,10 +32,10 @@ const Footer = () => {
               Canal Road, near Adda Khanpur, Rahim Yar Khan
             </p>
             <p className="text-sm text-gray-600 flex gap-2">
-              <IoIosMail /> +92 342 6222555
+              <MdLocalPhone /> +27 79 669 9507
             </p>
             <p className="text-sm text-gray-600 flex gap-2">
-              <MdLocalPhone /> hr@upward.org
+              <IoIosMail /> hr@upward.org
             </p>
             <div className="flex space-x-4 mt-4">
               <div className="w-10 h-10 hover:w-[38px] hover:h-[38px] rounded-full bg-[#2C5194] hover:bg-[#2c50946c] flex items-center justify-center transition-all divide-purple-200 ">
