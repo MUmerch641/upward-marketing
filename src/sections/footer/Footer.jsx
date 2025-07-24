@@ -28,8 +28,7 @@ const Footer = () => {
               innovations in digital solutions.
             </p>
             <p className="text-sm text-gray-600 flex gap-2">
-              <MdLocationPin size={25} />
-              Canal Road, near Adda Khanpur, Rahim Yar Khan
+              <MdLocationPin size={25} /> South Africa
             </p>
             <p className="text-sm text-gray-600 flex gap-2">
               <MdLocalPhone /> +27 79 669 9507
